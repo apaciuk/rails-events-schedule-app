@@ -53,7 +53,7 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-gem 'uikit-rails', '~> 1.0', '>= 1.0.1'
+gem 'redis'
 gem 'simple_calendar', '~> 2.3'
 gem 'trix', '~> 0.9.9'
 gem 'stripe', '~> 4.0', '>= 4.0.2'

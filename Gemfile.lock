@@ -231,11 +231,6 @@ GEM
     ruby-vips (2.1.2)
       ffi (~> 1.12)
     rubyzip (2.3.1)
-    sass (3.7.4)
-      sass-listen (~> 4.0.0)
-    sass-listen (4.0.0)
-      rb-fsevent (~> 0.9, >= 0.9.4)
-      rb-inotify (~> 0.9, >= 0.9.7)
     sass-rails (6.0.0)
       sassc-rails (~> 2.1, >= 2.1.1)
     sassc (2.4.0)
@@ -281,8 +276,6 @@ GEM
     turbolinks-source (5.2.0)
     tzinfo (1.2.9)
       thread_safe (~> 0.1)
-    uikit-rails (1.0.1)
-      sass (>= 3.3.4)
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.7)
@@ -335,7 +328,7 @@ DEPENDENCIES
   puma (~> 4.1)
   pundit (~> 2.1)
   rails (~> 6.0.4)
-  redis (~> 4.2, >= 4.2.2)
+  redis
   sass-rails (>= 6)
   selenium-webdriver
   sidekiq (~> 6.2)
@@ -347,7 +340,6 @@ DEPENDENCIES
   trix (~> 0.9.9)
   turbolinks (~> 5)
   tzinfo-data
-  uikit-rails (~> 1.0, >= 1.0.1)
   web-console (>= 3.3.0)
   webdrivers
   webpacker (~> 4.0)

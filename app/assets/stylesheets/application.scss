@@ -1,21 +1,13 @@
-// $navbar-default-bg: #312312;
-// $light-orange: #ff8c00;
-// $navbar-default-color: $light-orange;
+
 
 @import "font-awesome-sprockets";
 @import "font-awesome";
-@import "uikit-variables";
-@import "uikit";
-@import "uikit-components";
-@import "jumpstart/announcements";
+// = require simple_calender
+// = require trix
+// = require tree .
 
-// Fixes bootstrap nav-brand container overlap
-@include media-breakpoint-down(xs) {
-  .container {
-    margin-left: 0;
-    margin-right: 0;
-  }
-}
+
+
 
 // Masquerade alert shouldn't have a bottom margin
 body > .alert {
