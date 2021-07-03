@@ -8,6 +8,8 @@ require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
 require("local-time").start()
+//= require uikit
+//= require uikit-components
 
 window.Rails = Rails
 
