@@ -28,7 +28,7 @@
           <% end %>
          </li>
         <li class="nav-item"><%= link_to "Dashboard", meetings_path, class: "btn btn-default nav-link" %></li>
-                <li class="nav-item"><%= link_to "Schedule New Session", new_meeting_path, class: "btn btn-default nav-link" unless_admin? %></li>
+                        <li class="nav-item"><%= link_to "Schedule New Session", new_meeting_path, class: "btn btn-default nav-link" unless admin? %></li>
                         <li class="nav-item"><%= link_to "Users", user_session_path, class: "btn btn-default nav-link" %></li>
 
           <li class="nav-item dropdown">
