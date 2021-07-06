@@ -6,6 +6,6 @@ class User < ApplicationRecord
   has_one_attached :avatar
   has_person_name
 
-  has_many :notifications, as: :recipient
-  has_many :services
+  has_many :notifications
+  has_many :meetings, dependent: :destroy
 end

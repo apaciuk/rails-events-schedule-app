@@ -27,6 +27,9 @@
             <span><i class="far fa-bell" aria-hidden="true"></i></span>
           <% end %>
          </li>
+        <li class="nav-item"><%= link_to "Dashboard", meetings_path, class: "btn btn-default nav-link" %></li>
+                <li class="nav-item"><%= link_to "Schedule New Session", new_meeting_path, class: "btn btn-default nav-link" unless_admin? %></li>
+                        <li class="nav-item"><%= link_to "Users", user_session_path, class: "btn btn-default nav-link" %></li>
 
           <li class="nav-item dropdown">
             <%= link_to "#", id: "navbar-dropdown", class: "nav-link dropdown-toggle", data: { target: "nav-account-dropdown", bs_toggle: "dropdown" }, aria: { haspopup: true, expanded: false } do %>

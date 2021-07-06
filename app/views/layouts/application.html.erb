@@ -9,7 +9,7 @@
     <%= render 'shared/notices' %>
 
     <div class="container">
-      <%= yield %>
+      <%= content_for?(:content) ? yield(:content) : yield %>
     </div>
 
     <%= render 'shared/footer' %>
